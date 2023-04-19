@@ -1,6 +1,7 @@
+<h1 class="text-4xl font-bold ml-4 mt-4 text-blue-400">Tailwind CSS Works!!!</h1>
 <ul>
   <li *ngFor="let post of posts">
- 	<h1>{{post.title.rendered}}</h1>   
-      <p [innerHTML]='post.content.rendered'></p>
+ 	<h1 class="ml-4 text-3xl text-red-500 font-bold underline">{{post.title.rendered}}</h1>   
+      <p class="prose ml-4" [innerHTML]='post.content.rendered'></p>
   </li>
 </ul>
