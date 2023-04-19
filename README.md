@@ -1,10 +1,12 @@
 # Wpblog
 
 
-Tutorial: [https://wpwebinfotech.com/blog/headless-wordpress-angular/](https://wpwebinfotech.com/blog/headless-wordpress-angular/)
+- Tutorial: [https://wpwebinfotech.com/blog/headless-wordpress-angular/](https://wpwebinfotech.com/blog/headless-wordpress-angular/)
+- Website: [https://wp.sasebo.tech](https://wp.sasebo.tech)
 
-Website: [https://wp.sasebo.tech](https://wp.sasebo.tech)
+You will get a "any" type error. To resolve this, change the configuration in tsconfig.json:
 
-Change the configuration in tsconfig.json disable "strict" : true; and enable "noImplicitAny": false
+- Disable "strict" : true;
+- Enable "noImplicitAny": false
 
 # angular-wp
