@@ -1,5 +1,5 @@
 # Angular + Headless WordPress
-In this demo I learned how to integrate Headless WordPress with Angular using Rest API.
+In this demo I learned how to integrate Headless WordPress with Angular using Rest API. I later got Tailwind CSS to work.
 
 - Tutorial: [https://wpwebinfotech.com/blog/headless-wordpress-angular/](https://wpwebinfotech.com/blog/headless-wordpress-angular/)
 - Tailwind CSS [https://tailwindcss.com/docs/guides/angular](https://tailwindcss.com/docs/guides/angular)
