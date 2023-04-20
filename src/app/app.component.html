@@ -31,7 +31,7 @@
             <ul role="list" class="mt-8 space-y-8 text-gray-600">
               <li *ngFor="let post of posts">
               <h1 class="flex gap-x-3">{{post.title.rendered}}</h1>   
-                  <p class="p-2" [innerHTML]='post.content.rendered'></p>
+                  <p [innerHTML]='post.content.rendered'></p>
               </li>
             </ul>
           </article>
